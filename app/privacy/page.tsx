@@ -4,132 +4,165 @@ export default function PrivacyPage() {
   return (
     <div className="min-h-screen bg-black">
       <div className="max-w-4xl mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold text-white mb-8">プライバシーポリシー</h1>
+        <h1 className="text-3xl font-bold text-white mb-8">Privacy Policy</h1>
         
         <div className="prose prose-lg max-w-none">
           <p className="text-sm text-gray-300 mb-8">
-            最終更新日: {new Date().toLocaleDateString('ja-JP')}
+            Last updated: August 1, 2025
           </p>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-white mb-4">1. はじめに</h2>
-            <p className="text-gray-300 leading-relaxed">
-              Scribe（以下「当アプリ」）は、ユーザーのプライバシーを尊重し、個人情報の保護に努めています。
-              本プライバシーポリシーは、当アプリがどのような情報を収集し、どのように使用するかについて説明します。
+            <p className="text-gray-300 leading-relaxed mb-8">
+              Scribe Corporation (hereinafter referred to as "we" or "our company") has established this Privacy Policy (hereinafter referred to as "this Policy") as the basic principles to be observed for the appropriate management and operation of user information obtained by our company in the service "Scribe" (hereinafter referred to as "this Service") provided by our company, and we will handle user information appropriately.
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-white mb-4">2. データ収集について</h2>
-            <h3 className="text-xl font-medium text-white mb-3">プライバシー第一の設計</h3>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Scribeは、ユーザーのプライバシーを最優先に設計されたアプリです。
-              音声認識処理はすべてデバイス上でローカルに実行され、外部サーバーにデータを送信することはありません。
+            <h2 className="text-2xl font-semibold text-white mb-4">1. Consent to Privacy Policy</h2>
+            <p className="text-gray-300 leading-relaxed">
+              By using this Service or continuing to browse this website, users are deemed to have agreed to this Policy.
             </p>
-            
-            <h3 className="text-xl font-medium text-white mb-3">2.1 収集しない情報</h3>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold text-white mb-4">2. User Information Collected and Purpose of Use</h2>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              In this Policy, "User Information" refers to the following information obtained by our company through this Service. When collecting user information, our company will clearly specify the purpose of collection within the scope of legitimate business activities in advance, and will collect and use it to the extent necessary to achieve that purpose through legal and fair methods.
+            </p>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              Our company may change the purpose of use of user information within a range that is reasonably considered to be related to the purpose of use before the change, but when the purpose of use is changed, we will promptly notify or announce it.
+            </p>
+
+            <h3 className="text-xl font-medium text-white mb-3">2.1 Information Collected in This Service</h3>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              Our company may collect the following information from users in this Service. If users do not agree to provide the following information, they cannot use this Service.
+            </p>
+
+            <h4 className="text-lg font-medium text-white mb-3">2.1.1 Information Provided by Users When Using This Service</h4>
             <ul className="list-disc pl-6 text-gray-300 mb-4">
-              <li>音声データ（すべてデバイス上で処理）</li>
-              <li>転写されたテキスト内容</li>
-              <li>個人を特定できる情報</li>
-              <li>使用履歴や行動データ</li>
+              <li>Information necessary for account creation such as User ID (email address), nickname, profile photo, etc.</li>
+              <li>Account information of linked services provided through integration functions with other services such as Apple, Microsoft, Google, etc.</li>
+              <li>Information about text, photos, audio, video, and other data uploaded by users</li>
+              <li>Information about payment methods such as credit card information</li>
+              <li>Feedback information from users such as evaluations or complaints</li>
+              <li>Information from customer support inquiries</li>
             </ul>
-            
-            <h3 className="text-xl font-medium text-white mb-3">2.2 最小限の技術情報</h3>
-            <p className="text-gray-300 mb-4">
-              アプリの安定性向上のため、以下の匿名化された技術情報のみを収集する場合があります：
-            </p>
-            <ul className="list-disc pl-6 text-gray-300">
-              <li>アプリクラッシュレポート（個人情報を含まない）</li>
-              <li>アプリのバージョン情報</li>
-              <li>デバイスの基本仕様（OS、モデル）</li>
-            </ul>
-          </section>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-white mb-4">3. 情報の使用目的</h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              収集する技術情報は以下の目的でのみ使用します：
-            </p>
-            <ul className="list-disc pl-6 text-gray-300">
-              <li>アプリの安定性向上とバグ修正</li>
-              <li>パフォーマンスの最適化</li>
-              <li>新機能の開発（個人情報は使用しません）</li>
+            <h4 className="text-lg font-medium text-white mb-3">2.1.2 Information Collected by Our Company When Users Use This Service</h4>
+            <ul className="list-disc pl-6 text-gray-300 mb-4">
+              <li>OS of the device used when using this Service, UID (unique identifier) of the application, and version information</li>
+              <li>Information about the usage status of this Service (including operation settings, number of file uploads, transcription time, member registration, but not limited to these)</li>
+              <li>Information about operations of this Service (including recording, sharing, editing, deletion, but not limited to these)</li>
+              <li>Audio data, video data sent to our company when using this Service, text data generated by our company processing user's audio data, translation data, and speech synthesis data, etc.</li>
+              <li>Information about access status and usage methods to this Service (including access date and time, Cookie information, but not limited to these)</li>
             </ul>
-            <p className="text-white font-medium mt-4">
-              重要なポイント：音声データや転写内容は一切収集・保存されません。
-              すべての処理はデバイス上で完結します。
-            </p>
-          </section>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-white mb-4">4. 情報の共有</h2>
-            <h3 className="text-xl font-medium text-white mb-3">データ共有なし</h3>
+            <h3 className="text-xl font-medium text-white mb-3">2.2 Purpose and Scope of Use</h3>
             <p className="text-gray-300 leading-relaxed mb-4">
-              Scribeは、ユーザーの音声データや転写内容を第三者と共有することは一切ありません。
-              アプリは完全にローカルで動作し、外部サーバーとの通信は最小限に抑えられています。
+              Our company will use user information (including information that falls under personal information as defined by the Personal Information Protection Law, not limited to user information) for the following purposes and scope of use.
+            </p>
+            <ul className="list-disc pl-6 text-gray-300 mb-4">
+              <li>For registration acceptance, identity verification, and provision, maintenance, protection, and improvement of this Service</li>
+              <li>For identity authentication at login or after login when using this Service</li>
+              <li>For improvement and enhancement of this Service content and research and development of new services</li>
+              <li>For notifying information about this Service content, update information, event and campaign information, and changes to these Terms of Use and this Privacy Policy</li>
+              <li>For responding to inquiries and other communications regarding this Service</li>
+              <li>For security improvement, prevention of unauthorized use, and other efforts to improve the safety and reliability of this Service</li>
+              <li>For creating and using statistical information about this Service within a range that cannot identify individuals</li>
+              <li>For planning, formulating, or implementing future services related to this Service</li>
+            </ul>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              This Service uses APIs from third-party partner companies that provide speech recognition engines for speech recognition. These partner companies may use your audio data for speech recognition training depending on the plan you use. The use of this audio data is managed by the company's privacy policy.
+            </p>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              For translation functions in this Service, translation is performed using APIs from third parties that provide translation engines.
             </p>
             <p className="text-gray-300 leading-relaxed">
-              技術的な匿名化データのみが、アプリの改善目的で使用される場合があります。
+              For purposes incidental to each of the above purposes of use.
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-white mb-4">5. データの保存とセキュリティ</h2>
-            <h3 className="text-xl font-medium text-white mb-3">ローカル処理による最高のセキュリティ</h3>
+            <h2 className="text-2xl font-semibold text-white mb-4">3. Provision to Third Parties</h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              音声データと転写内容は、ユーザーのデバイス上でのみ処理・保存されます。
-              外部サーバーに送信されることは一切ありません。
+              Our company will not provide collected user information to third parties without prior consent from users. However, user information may be provided to third parties (including those outside Japan) in the following cases.
             </p>
             <ul className="list-disc pl-6 text-gray-300">
-              <li>すべての音声処理はデバイス上で完結</li>
-              <li>インターネット接続不要で音声認識が可能</li>
-              <li>データはユーザーのデバイス内でのみ保存</li>
-              <li>外部へのデータ送信は一切行わない</li>
+              <li>When the user has consented</li>
+              <li>When the user violates this Policy and we determine that user information must be disclosed to protect the rights and property of our company or other users, this Service, or this website</li>
+              <li>When necessary to protect human life, body, or property and it is difficult to obtain the person's consent</li>
+              <li>When our company's business succession including user information provision occurs due to merger, company split, business transfer, or other reasons</li>
+              <li>When permitted by the Personal Information Protection Law or other laws and regulations</li>
             </ul>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-white mb-4">6. ユーザーの権利</h2>
-            <h3 className="text-xl font-medium text-white mb-3">完全なデータコントロール</h3>
+            <h2 className="text-2xl font-semibold text-white mb-4">4. Disclosure to the Person</h2>
+            <p className="text-gray-300 leading-relaxed">
+              When requested to disclose personal information based on the provisions of the Personal Information Protection Law, our company will promptly disclose it after confirming that the request is from the person. However, in principle, the disclosure target is limited to information that falls under personal information under the Personal Information Protection Law, and not all user information is subject to disclosure. This does not apply when our company is not obligated to disclose under the Personal Information Protection Law or other laws and regulations.
+            </p>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold text-white mb-4">5. Correction of User Information</h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              Scribeでは、ユーザーが自分のデータを完全にコントロールできます。
-              音声データと転写内容はすべてユーザーのデバイス上に保存され、
-              いつでも削除・管理が可能です。
+              When requested by the person to correct, suspend use, or delete user information, our company will respond promptly after confirming that the request is from the person. Please contact us through the contact window listed at the end of this Policy.
             </p>
-            <ul className="list-disc pl-6 text-gray-300">
-              <li>データの完全な所有権（デバイス上でのみ保存）</li>
-              <li>いつでもデータの削除が可能</li>
-              <li>外部へのデータ送信なし</li>
-              <li>アプリの削除でデータも完全に削除</li>
-            </ul>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-white mb-4">7. クッキーとトラッキング技術</h2>
-            <h3 className="text-xl font-medium text-white mb-3">トラッキングなし</h3>
             <p className="text-gray-300 leading-relaxed">
-              Scribeは、ユーザーの行動を追跡するクッキーやトラッキング技術を使用しません。
-              アプリは完全にローカルで動作し、外部のトラッキングサービスとは連携しません。
+              We may refuse requests that we determine to be unreasonable, such as when the request content has no reason under laws such as the Personal Information Protection Law, when the request is unreasonably repeated, or when we determine the request to be inappropriate.
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-white mb-4">8. プライバシーポリシーの変更</h2>
+            <h2 className="text-2xl font-semibold text-white mb-4">6. Outsourcing of User Information Handling</h2>
             <p className="text-gray-300 leading-relaxed">
-              当アプリは、必要に応じて本プライバシーポリシーを更新する場合があります。
-              重要な変更がある場合は、アプリ内通知またはメールでお知らせします。
+              Our company may outsource the handling of collected user information to external parties within the scope necessary to achieve the purpose of use of user information for business operations. In this case, our company will supervise the outsourcing party and ensure appropriate information management.
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-white mb-4">9. お問い合わせ</h2>
+            <h2 className="text-2xl font-semibold text-white mb-4">7. Protection of Communication Secrets</h2>
             <p className="text-gray-300 leading-relaxed">
-              プライバシーに関するご質問やご不明な点がございましたら、
-              以下の連絡先までお気軽にお問い合わせください。
+              Our company will implement necessary and appropriate measures for the safe management of user information, including education and training for all employees including our company officers, and system measures such as implementing access restrictions to user information files, recording access logs, and implementing security measures to prevent unauthorized access from outside to prevent leakage, loss, or damage of user information.
+            </p>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold text-white mb-4">8. Use of Cookies</h2>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              Our company automatically collects user access data using cookies when using this Service to improve the convenience of this Service.
+            </p>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              Cookies are information such as website access history sent from the server and saved as small data files on the user's computer, and are a mechanism to identify users. Cookies do not contain information that identifies individual users such as names or addresses. You can delete cookies from the "Settings" of each browser. However, please note that deleting cookies may affect some functions.
+            </p>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold text-white mb-4">9. Scope of Privacy Policy</h2>
+            <p className="text-gray-300 leading-relaxed">
+              This Privacy Policy does not apply to our company's business partners, outsourcing companies, or linked sites within our company's website. Our company assumes no responsibility for any troubles that occur on those sites. Please check the handling of user information on each site.
+            </p>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold text-white mb-4">10. Revision of Privacy Policy</h2>
+            <p className="text-gray-300 leading-relaxed">
+              Our company will review the operation status of user information handling as appropriate and strive for continuous improvement, and may revise this Policy as necessary. We will notify users of revisions to the Privacy Policy by methods such as notifying users or posting on our company's website.
+            </p>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-semibold text-white mb-4">11. Contact Window</h2>
+            <p className="text-gray-300 leading-relaxed mb-4">
+              For questions or complaints regarding the handling of user information by our company, please contact the following window.
+            </p>
+            <p className="text-gray-300">
+              <strong>Contact:</strong> support@Scribe.ai
             </p>
             <p className="text-gray-300 mt-4">
-              <strong>連絡先:</strong> privacy@scribe-app.com
+              Established: November 29, 2019<br />
+              Revised: August 1, 2025<br />
+              Scribe Corporation
             </p>
           </section>
         </div>

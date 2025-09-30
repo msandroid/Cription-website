@@ -22,13 +22,13 @@ export default function Home() {
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
-                <a href="#features" className="text-muted-foreground hover:text-foreground px-3 py-2 rounded-md text-sm font-medium transition-colors">機能</a>
-                <a href="#pricing" className="text-muted-foreground hover:text-foreground px-3 py-2 rounded-md text-sm font-medium transition-colors">料金</a>
+                <a href="#features" className="text-muted-foreground hover:text-foreground px-3 py-2 rounded-md text-sm font-medium transition-colors">Features</a>
+                <a href="#pricing" className="text-muted-foreground hover:text-foreground px-3 py-2 rounded-md text-sm font-medium transition-colors">Pricing</a>
               </div>
             </div>
             <div className="flex items-center space-x-4">
-              <Button variant="ghost" size="sm">ログイン</Button>
-              <Button size="sm">始める</Button>
+              <Button variant="ghost" size="sm">Login</Button>
+              <Button size="sm">Get Started</Button>
             </div>
           </div>
         </div>
@@ -40,10 +40,10 @@ export default function Home() {
           <div className="text-center">
             <div className="animate-fade-in">
               <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-                音声をテキストに
+                Voice to Text
               </h1>
               <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-                AIがあなたの音声を素晴らしいテキストに変換。リアルタイムストリーミング、99言語対応、ローカル処理でプロフェッショナルな精度を実現します。
+                Transform your voice into amazing text with AI. Real-time streaming, 99 language support, and local processing for professional accuracy.
               </p>
             </div>
             <div className="animate-slide-up flex justify-center">
@@ -69,10 +69,10 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              機能
+              Features
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              AI搭載ツールで音声認識を再定義します
+              Redefining speech recognition with AI-powered tools
             </p>
           </div>
 
@@ -82,9 +82,9 @@ export default function Home() {
                 <div className="w-12 h-12 bg-gray-700 rounded-xl flex items-center justify-center mb-4">
                   <Mic className="w-6 h-6 text-white" />
                 </div>
-                <CardTitle className="text-white">リアルタイム音声認識</CardTitle>
+                <CardTitle className="text-white">Real-time Speech Recognition</CardTitle>
                 <CardDescription className="text-gray-300 leading-relaxed">
-                  高精度音声テキスト変換とリアルタイムストリーミング転写で、話した内容を即座にテキスト化します。
+                  High-precision voice-to-text conversion with real-time streaming transcription, instantly converting your speech to text.
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -94,9 +94,9 @@ export default function Home() {
                 <div className="w-12 h-12 bg-gray-700 rounded-xl flex items-center justify-center mb-4">
                   <Globe className="w-6 h-6 text-white" />
                 </div>
-                <CardTitle className="text-white">99言語対応</CardTitle>
+                <CardTitle className="text-white">99 Language Support</CardTitle>
                 <CardDescription className="text-gray-300 leading-relaxed">
-                  自動言語検出による多言語サポート。異なる言語とアクセント用の専門モデルで高精度を実現。
+                  Multi-language support with automatic language detection. Specialized models for different languages and accents ensure high accuracy.
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -106,9 +106,9 @@ export default function Home() {
                 <div className="w-12 h-12 bg-gray-700 rounded-xl flex items-center justify-center mb-4">
                   <Shield className="w-6 h-6 text-white" />
                 </div>
-                <CardTitle className="text-white">ローカル処理</CardTitle>
+                <CardTitle className="text-white">Local Processing</CardTitle>
                 <CardDescription className="text-gray-300 leading-relaxed">
-                  すべての処理はデバイス上でローカルに実行。外部サーバーへのデータ送信なしで完全なプライバシー保護。
+                  All processing runs locally on your device. Complete privacy protection with no data transmission to external servers.
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -118,9 +118,9 @@ export default function Home() {
                 <div className="w-12 h-12 bg-gray-700 rounded-xl flex items-center justify-center mb-4">
                   <Zap className="w-6 h-6 text-white" />
                 </div>
-                <CardTitle className="text-white">高速処理</CardTitle>
+                <CardTitle className="text-white">Fast Processing</CardTitle>
                 <CardDescription className="text-gray-300 leading-relaxed">
-                  ターボモデルによる高速転写。20以上のWhisperモデルバリエーションから最適なものを選択可能。
+                  High-speed transcription with turbo models. Choose from 20+ Whisper model variations for optimal performance.
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -130,9 +130,9 @@ export default function Home() {
                 <div className="w-12 h-12 bg-gray-700 rounded-xl flex items-center justify-center mb-4">
                   <Users className="w-6 h-6 text-white" />
                 </div>
-                <CardTitle className="text-white">話者分離</CardTitle>
+                <CardTitle className="text-white">Speaker Separation</CardTitle>
                 <CardDescription className="text-gray-300 leading-relaxed">
-                  多話者会話の話者分離機能で、誰が何を話したかを正確に識別・記録します。
+                  Speaker separation for multi-speaker conversations, accurately identifying and recording who said what.
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -142,9 +142,9 @@ export default function Home() {
                 <div className="w-12 h-12 bg-gray-700 rounded-xl flex items-center justify-center mb-4">
                   <Download className="w-6 h-6 text-white" />
                 </div>
-                <CardTitle className="text-white">多様なエクスポート</CardTitle>
+                <CardTitle className="text-white">Diverse Export Options</CardTitle>
                 <CardDescription className="text-gray-300 leading-relaxed">
-                  様々なテキスト形式でのエクスポートオプション。会議メモ、インタビュー、ポッドキャストなど幅広く活用。
+                  Various text format export options. Widely applicable for meeting notes, interviews, podcasts, and more.
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -157,10 +157,10 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              活用事例
+              Use Cases
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              様々な業界でScribeが活用されています
+              Scribe is being utilized across various industries
             </p>
           </div>
 
@@ -169,10 +169,10 @@ export default function Home() {
               <CardHeader>
                 <div className="flex items-center mb-4">
                   <Clock className="w-6 h-6 text-white mr-3" />
-                  <CardTitle className="text-white">会議転写</CardTitle>
+                  <CardTitle className="text-white">Meeting Transcription</CardTitle>
                 </div>
                 <CardDescription className="text-gray-300">
-                  会議の内容をリアルタイムで文字起こし。重要なポイントを見逃すことなく、効率的な議事録作成が可能。
+                  Real-time transcription of meeting content. Create efficient meeting minutes without missing important points.
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -181,10 +181,10 @@ export default function Home() {
               <CardHeader>
                 <div className="flex items-center mb-4">
                   <Mic className="w-6 h-6 text-white mr-3" />
-                  <CardTitle className="text-white">インタビュー</CardTitle>
+                  <CardTitle className="text-white">Interviews</CardTitle>
                 </div>
                 <CardDescription className="text-gray-300">
-                  インタビュー録音を自動で文字起こし。話者分離機能で質問者と回答者を明確に区別。
+                  Automatic transcription of interview recordings. Speaker separation clearly distinguishes between interviewer and interviewee.
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -193,10 +193,10 @@ export default function Home() {
               <CardHeader>
                 <div className="flex items-center mb-4">
                   <Users className="w-6 h-6 text-white mr-3" />
-                  <CardTitle className="text-white">アクセシビリティ</CardTitle>
+                  <CardTitle className="text-white">Accessibility</CardTitle>
                 </div>
                 <CardDescription className="text-gray-300">
-                  聴覚障害者向けのアクセシビリティサポート。音声コンテンツをテキストで提供。
+                  Accessibility support for the hearing impaired. Provide audio content as text.
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -209,29 +209,29 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              処理能力
+              Processing Power
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              従来の手作業では不可能な規模とスピードを実現
+              Achieving scale and speed impossible with traditional manual methods
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-white mb-2">1000+</div>
-              <div className="text-gray-300 text-lg">同時処理可能ファイル数</div>
+              <div className="text-gray-300 text-lg">Concurrent Files</div>
             </div>
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-white mb-2">95%</div>
-              <div className="text-gray-300 text-lg">時間短縮効果</div>
+              <div className="text-gray-300 text-lg">Time Savings</div>
             </div>
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-white mb-2">100%</div>
-              <div className="text-gray-300 text-lg">スタイル統一率</div>
+              <div className="text-gray-300 text-lg">Style Consistency</div>
             </div>
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-white mb-2">24/7</div>
-              <div className="text-gray-300 text-lg">無人稼働</div>
+              <div className="text-gray-300 text-lg">Unmanned Operation</div>
             </div>
           </div>
         </div>
@@ -242,10 +242,10 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              プランを選択
+              Choose Your Plan
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              無料で始めて、成長に合わせてスケール。すべてのプランにコア音声認識機能が含まれています。
+              Start free and scale as you grow. All plans include core speech recognition features.
             </p>
           </div>
 
@@ -253,30 +253,30 @@ export default function Home() {
             {/* Free Plan */}
             <Card className="bg-gray-800 border-gray-700">
               <CardHeader className="text-center">
-                <CardTitle className="text-2xl text-white">スターター</CardTitle>
-                <div className="text-4xl font-bold text-white mb-2">¥0<span className="text-lg text-gray-300">/月</span></div>
-                <CardDescription className="text-gray-300">個人や小規模プロジェクトに最適</CardDescription>
+                <CardTitle className="text-2xl text-white">Starter</CardTitle>
+                <div className="text-4xl font-bold text-white mb-2">$0<span className="text-lg text-gray-300">/month</span></div>
+                <CardDescription className="text-gray-300">Perfect for individuals and small projects</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="flex items-center">
                   <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">月5時間の音声認識</span>
+                  <span className="text-sm text-gray-300">5 hours of speech recognition per month</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">基本音声認識機能</span>
+                  <span className="text-sm text-gray-300">Basic speech recognition features</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">標準精度</span>
+                  <span className="text-sm text-gray-300">Standard accuracy</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">コミュニティサポート</span>
+                  <span className="text-sm text-gray-300">Community support</span>
                 </div>
               </CardContent>
               <CardContent>
-                <Button className="w-full bg-white text-black hover:bg-gray-200">無料で始める</Button>
+                <Button className="w-full bg-white text-black hover:bg-gray-200">Start Free</Button>
               </CardContent>
             </Card>
 
@@ -286,39 +286,39 @@ export default function Home() {
                 <Badge className="bg-white text-black">Most Popular</Badge>
               </div>
               <CardHeader className="text-center">
-                <CardTitle className="text-2xl text-white">プロフェッショナル</CardTitle>
-                <div className="text-4xl font-bold text-white mb-2">¥2,980<span className="text-lg text-gray-300">/月</span></div>
-                <CardDescription className="text-gray-300">クリエイターとプロフェッショナル向け</CardDescription>
+                <CardTitle className="text-2xl text-white">Professional</CardTitle>
+                <div className="text-4xl font-bold text-white mb-2">$29<span className="text-lg text-gray-300">/month</span></div>
+                <CardDescription className="text-gray-300">For creators and professionals</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="flex items-center">
                   <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">無制限の音声認識</span>
+                  <span className="text-sm text-gray-300">Unlimited speech recognition</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">すべての音声認識機能</span>
+                  <span className="text-sm text-gray-300">All speech recognition features</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">高精度認識</span>
+                  <span className="text-sm text-gray-300">High-precision recognition</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">優先サポート</span>
+                  <span className="text-sm text-gray-300">Priority support</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">話者分離機能</span>
+                  <span className="text-sm text-gray-300">Speaker separation</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">99言語対応</span>
+                  <span className="text-sm text-gray-300">99 language support</span>
                 </div>
               </CardContent>
               <CardContent>
                 <Button className="w-full bg-white text-black hover:bg-gray-200">
-                  プロになる
+                  Go Pro
                 </Button>
               </CardContent>
             </Card>
@@ -326,38 +326,38 @@ export default function Home() {
             {/* Enterprise Plan */}
             <Card className="bg-gray-800 border-gray-700">
               <CardHeader className="text-center">
-                <CardTitle className="text-2xl text-white">エンタープライズ</CardTitle>
-                <div className="text-4xl font-bold text-white mb-2">カスタム</div>
-                <CardDescription className="text-gray-300">チームと大規模組織向け</CardDescription>
+                <CardTitle className="text-2xl text-white">Enterprise</CardTitle>
+                <div className="text-4xl font-bold text-white mb-2">Custom</div>
+                <CardDescription className="text-gray-300">For teams and large organizations</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="flex items-center">
                   <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">プロのすべて</span>
+                  <span className="text-sm text-gray-300">Everything in Professional</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">専用音声認識サーバー</span>
+                  <span className="text-sm text-gray-300">Dedicated speech recognition servers</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">カスタム音声モデル</span>
+                  <span className="text-sm text-gray-300">Custom speech models</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">24/7プレミアムサポート</span>
+                  <span className="text-sm text-gray-300">24/7 premium support</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">SLA保証</span>
+                  <span className="text-sm text-gray-300">SLA guarantee</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">専任アカウントマネージャー</span>
+                  <span className="text-sm text-gray-300">Dedicated account manager</span>
                 </div>
               </CardContent>
               <CardContent>
-                <Button className="w-full bg-white text-black hover:bg-gray-200">営業に問い合わせ</Button>
+                <Button className="w-full bg-white text-black hover:bg-gray-200">Contact Sales</Button>
               </CardContent>
             </Card>
           </div>
@@ -374,26 +374,26 @@ export default function Home() {
                 <h3 className="text-xl font-bold ml-3 text-white">Scribe</h3>
               </div>
               <p className="text-gray-300 mb-6 max-w-md">
-                あらゆる音声を自由にテキスト化。AIが理解し、あなたの生産性を無限に拡張します。
+                Transform any voice into text freely. AI understands and infinitely expands your productivity.
               </p>
             </div>
             
             <div>
-              <h4 className="text-lg font-semibold mb-4 text-white">製品</h4>
+              <h4 className="text-lg font-semibold mb-4 text-white">Product</h4>
               <ul className="space-y-2">
-                <li><a href="#features" className="text-gray-300 hover:text-white transition-colors">機能</a></li>
-                <li><a href="#pricing" className="text-gray-300 hover:text-white transition-colors">料金</a></li>
+                <li><a href="#features" className="text-gray-300 hover:text-white transition-colors">Features</a></li>
+                <li><a href="#pricing" className="text-gray-300 hover:text-white transition-colors">Pricing</a></li>
                 <li><a href="#" className="text-gray-300 hover:text-white transition-colors">API</a></li>
-                <li><a href="#" className="text-gray-300 hover:text-white transition-colors">統合</a></li>
+                <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Integrations</a></li>
               </ul>
             </div>
             
             <div>
-              <h4 className="text-lg font-semibold mb-4 text-white">サポート</h4>
+              <h4 className="text-lg font-semibold mb-4 text-white">Support</h4>
               <ul className="space-y-2">
-                <li><a href="#" className="text-gray-300 hover:text-white transition-colors">ヘルプセンター</a></li>
-                <li><a href="#" className="text-gray-300 hover:text-white transition-colors">ドキュメント</a></li>
-                <li><a href="#" className="text-gray-300 hover:text-white transition-colors">コミュニティ</a></li>
+                <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Help Center</a></li>
+                <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Documentation</a></li>
+                <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Community</a></li>
               </ul>
             </div>
           </div>
@@ -404,8 +404,8 @@ export default function Home() {
                 © 2024 Scribe. All rights reserved.
               </p>
               <div className="flex space-x-6 mt-4 md:mt-0">
-                <a href="/privacy" className="text-gray-300 hover:text-white transition-colors text-sm">プライバシーポリシー</a>
-                <a href="/terms" className="text-gray-300 hover:text-white transition-colors text-sm">利用規約</a>
+                <a href="/privacy" className="text-gray-300 hover:text-white transition-colors text-sm">Privacy Policy</a>
+                <a href="/terms" className="text-gray-300 hover:text-white transition-colors text-sm">Terms of Use</a>
               </div>
             </div>
           </div>
