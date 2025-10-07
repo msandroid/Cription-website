@@ -4,7 +4,7 @@ export default function TermsPage() {
   return (
     <div className="min-h-screen bg-black">
       <div className="max-w-4xl mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold text-white mb-8">Scribe Service Terms of Use</h1>
+        <h1 className="text-3xl font-bold text-white mb-8">Cription Service Terms of Use</h1>
         
         <div className="prose prose-lg max-w-none">
           <p className="text-sm text-gray-300 mb-8">
@@ -14,7 +14,7 @@ export default function TermsPage() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold text-white mb-4">Article 1 (Application)</h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              The contractual conditions for the service "Scribe" (hereinafter referred to as "this Service") provided by Scribe (hereinafter referred to as "our company") shall be as set forth in the following terms of use (hereinafter referred to as "these Terms").
+              The contractual conditions for the service "Cription" (hereinafter referred to as "this Service") provided by Cription (hereinafter referred to as "our company") shall be as set forth in the following terms of use (hereinafter referred to as "these Terms").
             </p>
             <p className="text-gray-300 leading-relaxed mb-4">
               To use this Service, you must read the entire text of these Terms and agree to all provisions of these Terms.
@@ -30,13 +30,13 @@ export default function TermsPage() {
               The terms used in these Terms of Use shall have the following meanings.
             </p>
             <ul className="list-disc pl-6 text-gray-300">
-              <li>"This Service" refers to all services related to Scribe provided by our company (including optional services, but not limited to these).</li>
+              <li>"This Service" refers to all services related to Cription provided by our company (including optional services, but not limited to these).</li>
               <li>"This Website" refers to our company's website.</li>
               <li>"User" refers to a person who uses this Service.</li>
               <li>"Usage Fee" refers to the consideration for this Service that users must pay to our company in accordance with Article 9.</li>
               <li>"Authentication Information" refers to User ID (email address), nickname, password, etc. registered by users with our company.</li>
               <li>"This Audio Data" refers to audio data stored on this Service.</li>
-              <li>"This Text Data" refers to text data transcribed from this audio data on this Service.</li>
+              <li>"This Text Data" refers to text data tranCriptiond from this audio data on this Service.</li>
               <li>"This Translation Data" refers to text data translated on this Service.</li>
               <li>"This Speech Synthesis Data" refers to audio data synthesized on this Service.</li>
               <li>"Transcription Time" refers to the recording time of conversations that can be converted to text or the playback time of audio files when using this Service.</li>
@@ -81,7 +81,7 @@ export default function TermsPage() {
               When registering registration information, customers must provide true and accurate information. Our company provides this Service based on the registration information registered by customers themselves. Our company shall not be responsible for any damage caused to customers due to false, erroneous, or missing information in the registration information.
             </p>
             <p className="text-gray-300 leading-relaxed mb-4">
-              Users can become registered users by registering a user account on this website or the Scribe app.
+              Users can become registered users by registering a user account on this website or the Cription app.
             </p>
             <p className="text-gray-300 leading-relaxed mb-4">
               User registration must be performed by the person who uses this Service.
@@ -143,11 +143,11 @@ export default function TermsPage() {
             </p>
             <ul className="list-disc pl-6 text-gray-300 mb-4">
               <li>Functions related to audio transcription</li>
-              <li>Functions related to editing transcribed text</li>
+              <li>Functions related to editing tranCriptiond text</li>
               <li>Functions related to importing audio files</li>
               <li>Functions related to exporting this text data and this audio data</li>
               <li>Functions related to sharing this text data and this audio data</li>
-              <li>Functions related to translating transcribed text</li>
+              <li>Functions related to translating tranCriptiond text</li>
               <li>Functions related to speech synthesis of translated text</li>
             </ul>
             <p className="text-gray-300 leading-relaxed">
@@ -170,7 +170,7 @@ export default function TermsPage() {
               This Service shall be automatically renewed for the same period each time the usage period expires, and when renewal occurs, users shall pay the basic fee, etc. by the method in the preceding paragraph.
             </p>
             <p className="text-gray-300 leading-relaxed mb-4">
-              When users wish to cancel this Service, they shall cancel it by the method prescribed by our company. When canceling, no prorated calculation of the basic fee, etc. will be performed, and users can use this Service during the paid usage period even after cancellation, and automatic renewal due to the expiration of the usage period will be stopped.
+              When users wish to cancel this Service, they shall cancel it by the method preCriptiond by our company. When canceling, no prorated calculation of the basic fee, etc. will be performed, and users can use this Service during the paid usage period even after cancellation, and automatic renewal due to the expiration of the usage period will be stopped.
             </p>
             <p className="text-gray-300 leading-relaxed mb-4">
               Users shall agree in advance that they may not be able to use functions and services provided in paid plans due to plan changes, etc.

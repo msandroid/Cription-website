@@ -13,7 +13,7 @@ export default function PrivacyPage() {
 
           <section className="mb-8">
             <p className="text-gray-300 leading-relaxed mb-8">
-              Scribe Corporation (hereinafter referred to as "we" or "our company") has established this Privacy Policy (hereinafter referred to as "this Policy") as the basic principles to be observed for the appropriate management and operation of user information obtained by our company in the service "Scribe" (hereinafter referred to as "this Service") provided by our company, and we will handle user information appropriately.
+              Cription Corporation (hereinafter referred to as "we" or "our company") has established this Privacy Policy (hereinafter referred to as "this Policy") as the basic principles to be observed for the appropriate management and operation of user information obtained by our company in the service "Cription" (hereinafter referred to as "this Service") provided by our company, and we will handle user information appropriately.
             </p>
           </section>
 
@@ -157,12 +157,12 @@ export default function PrivacyPage() {
               For questions or complaints regarding the handling of user information by our company, please contact the following window.
             </p>
             <p className="text-gray-300">
-              <strong>Contact:</strong> support@Scribe.ai
+              <strong>Contact:</strong> support@Cription.ai
             </p>
             <p className="text-gray-300 mt-4">
               Established: November 29, 2019<br />
               Revised: August 1, 2025<br />
-              Scribe Corporation
+              Cription Corporation
             </p>
           </section>
         </div>

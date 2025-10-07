@@ -6,7 +6,7 @@
 Transform speech to text with AI-powered transcription. Real-time streaming, 99 languages, local processing. Professional accuracy.
 
 ### Description (4,000文字)
-Scribe is a powerful, AI-powered speech recognition app that accurately converts spoken words into text. It features machine learning models optimized for Apple devices, providing professional-grade transcription capabilities on-device.
+Cription is a powerful, AI-powered speech recognition app that accurately converts spoken words into text. It features machine learning models optimized for Apple devices, providing professional-grade transcription capabilities on-device.
 
 **Key Features:**
 
@@ -62,7 +62,7 @@ Scribe is a powerful, AI-powered speech recognition app that accurately converts
 4. Start speaking or upload audio files
 5. Export your transcriptions in various formats
 
-Scribe is perfect for professionals, students, content creators, and anyone who needs reliable speech-to-text conversion. The app's local processing ensures your conversations remain private while delivering enterprise-grade accuracy.
+Cription is perfect for professionals, students, content creators, and anyone who needs reliable speech-to-text conversion. The app's local processing ensures your conversations remain private while delivering enterprise-grade accuracy.
 
 **System Requirements:**
 • iOS 15.0 or later
@@ -70,7 +70,7 @@ Scribe is perfect for professionals, students, content creators, and anyone who 
 • Microphone access for real-time transcription
 • Storage space for model downloads
 
-Download Scribe today and experience the future of speech recognition technology.
+Download Cription today and experience the future of speech recognition technology.
 
 ### Keywords (170文字)
 speech recognition, transcription, AI, voice to text, real-time, multilingual, privacy, local processing, Whisper, accessibility, meeting notes, interview, podcast, content creation, professional, accuracy, offline, secure
@@ -83,7 +83,7 @@ speech recognition, transcription, AI, voice to text, real-time, multilingual, p
 AIを活用した文字起こしで、音声をテキストに変換。リアルタイムストリーミング、99言語対応、ローカル処理。プロフェッショナルな精度。
 
 ### Description (4,000文字)
-Scribeは、AIを搭載した強力な音声認識アプリで、話した言葉を正確にテキストに文字こしできます。Appleデバイスのために最適化済みの機械学習モデルを搭載し、デバイス上で迅速な転写機能を提供します。
+Criptionは、AIを搭載した強力な音声認識アプリで、話した言葉を正確にテキストに文字こしできます。Appleデバイスのために最適化済みの機械学習モデルを搭載し、デバイス上で迅速な転写機能を提供します。
 
 **リアルタイム音声認識**
 • リアルタイムストリーミング転写による高精度音声テキスト変換
@@ -98,7 +98,7 @@ Scribeは、AIを搭載した強力な音声認識アプリで、話した言葉
 • 英語専用および多言語ユースケース用の最適化モデル
 
 **高度なモデル管理**
-• 選択可能な20以上のScribeモデルバリエーション
+• 選択可能な20以上のCriptionモデルバリエーション
 • 最高のパフォーマンスのための自動デバイス最適化
 • ストレージ削減と高速処理のための量子化モデル
 • 完全なプライバシーとデータセキュリティを保証するローカル処理
@@ -137,7 +137,7 @@ Scribeは、AIを搭載した強力な音声認識アプリで、話した言葉
 4. 話し始めるかオーディオファイルをアップロード
 5. 様々な形式で転写をエクスポート
 
-Scribeは、ビジネスマン、プロフェッショナル、学生、コンテンツクリエイターなど、信頼性の高い音声テキスト変換が必要なすべての人に最適です。アプリのローカル処理により、プライバシーを保ちながら、エンタープライズグレードの精度を提供します。
+Criptionは、ビジネスマン、プロフェッショナル、学生、コンテンツクリエイターなど、信頼性の高い音声テキスト変換が必要なすべての人に最適です。アプリのローカル処理により、プライバシーを保ちながら、エンタープライズグレードの精度を提供します。
 
 **Tips**
 ・音声ファイルを入力する場合は.mp3よりも.wavの方が高速です。これは長時間のファイル入力で大きな差が出ます。
@@ -150,7 +150,7 @@ Scribeは、ビジネスマン、プロフェッショナル、学生、コン�
 • リアルタイム転写のためのマイクアクセス
 • モデルダウンロード用のストレージ容量
 
-今すぐScribeをダウンロードして、音声認識技術の未来を体験してください。
+今すぐCriptionをダウンロードして、音声認識技術の未来を体験してください。
 
 ### Keywords (170文字)
 音声認識, 転写, AI, 音声テキスト変換, リアルタイム, 多言語, プライバシー, ローカル処理, Whisper, アクセシビリティ, 会議メモ, インタビュー, ポッドキャスト, コンテンツ作成, プロフェッショナル, 精度, オフライン, セキュア
@@ -163,7 +163,7 @@ Scribeは、ビジネスマン、プロフェッショナル、学生、コン�
 AI语音识别将语音转换为文本。实时转录，支持99种语言，本地处理。专业级精度。
 
 ### Description (4,000文字)
-Scribe是一款强大的AI语音识别应用，可将您的语音转换为准确的文本转录。基于先进的Whisper技术构建，Scribe在您的设备上提供专业级转录功能。
+Cription是一款强大的AI语音识别应用，可将您的语音转换为准确的文本转录。基于先进的Whisper技术构建，Cription在您的设备上提供专业级转录功能。
 
 **主要功能:**
 
@@ -219,7 +219,7 @@ Scribe是一款强大的AI语音识别应用，可将您的语音转换为准确
 4. 开始说话或上传音频文件
 5. 以各种格式导出您的转录
 
-Scribe非常适合专业人士、学生、内容创作者以及任何需要可靠语音转文本转换的用户。应用的本地处理确保您的对话保持私密，同时提供企业级准确性。
+Cription非常适合专业人士、学生、内容创作者以及任何需要可靠语音转文本转换的用户。应用的本地处理确保您的对话保持私密，同时提供企业级准确性。
 
 **系统要求:**
 • iOS 15.0或更高版本
@@ -227,7 +227,7 @@ Scribe非常适合专业人士、学生、内容创作者以及任何需要可�
 • 实时转录需要麦克风访问权限
 • 模型下载的存储空间
 
-立即下载Scribe，体验语音识别技术的未来。
+立即下载Cription，体验语音识别技术的未来。
 
 ### Keywords (170文字)
 语音识别, 转录, AI, 语音转文本, 实时, 多语言, 隐私, 本地处理, Whisper, 无障碍, 会议笔记, 采访, 播客, 内容创作, 专业, 准确性, 离线, 安全

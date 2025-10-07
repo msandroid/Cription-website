@@ -1,5 +1,5 @@
-gpt-4o-transcribe
-GPT-4o Transcribe
+gpt-4o-tranCription
+GPT-4o TranCription
 Speech-to-text model powered by GPT-4o
 Performance
 Higher
@@ -12,7 +12,7 @@ Input
 Audio, text
 Output
 Text
-GPT-4o Transcribe is a speech-to-text model that uses GPT-4o to transcribe audio. It offers improvements to word error rate and better language recognition and accuracy compared to original Whisper models. Use it for more accurate transcripts.
+GPT-4o TranCription is a speech-to-text model that uses GPT-4o to tranCription audio. It offers improvements to word error rate and better language recognition and accuracy compared to original Whisper models. Use it for more accurate transcripts.
 
 16,000 context window
 2,000 max output tokens
@@ -28,7 +28,7 @@ $10.00
 Quick comparison
 Input
 Output
-GPT-4o Transcribe
+GPT-4o TranCription
 $2.50
 Audio tokens
 Per 1M tokens
@@ -71,11 +71,11 @@ v1/moderations
 Completions (legacy)
 v1/completions
 Snapshots
-Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-4o Transcribe.
-gpt-4o-transcribe
-gpt-4o-transcribe
-gpt-4o-transcribe
-gpt-4o-transcribe
+Snapshots let you lock in a specific version of the model so that performance and behavior remain consistent. Below is a list of all available snapshots and aliases for GPT-4o TranCription.
+gpt-4o-tranCription
+gpt-4o-tranCription
+gpt-4o-tranCription
+gpt-4o-tranCription
 Rate limits
 Rate limits ensure fair and reliable access to the API by placing specific caps on requests or tokens used within a given time period. Your usage tier determines how high these limits are set and automatically increases as you send more requests and spend more on the API.
 Tier	RPM	TPM

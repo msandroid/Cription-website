@@ -14,10 +14,10 @@ export default function Home() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <img src="/icon.png" alt="Scribe" className="w-8 h-8 rounded-lg" />
+                <img src="/icon.png" alt="Cription" className="w-8 h-8 rounded-lg" />
               </div>
               <div className="ml-3">
-                <h1 className="text-xl font-bold text-foreground">Scribe</h1>
+                <h1 className="text-xl font-bold text-foreground">Cription</h1>
               </div>
             </div>
             <div className="hidden md:block">
@@ -48,7 +48,7 @@ export default function Home() {
             </div>
             <div className="animate-slide-up flex justify-center">
               <a 
-                href="https://apps.apple.com/app/scribe" 
+                href="https://apps.apple.com/app/Cription" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="hover:scale-105 transition-transform duration-300"
@@ -160,7 +160,7 @@ export default function Home() {
               Use Cases
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Scribe is being utilized across various industries
+              Cription is being utilized across various industries
             </p>
           </div>
 
@@ -370,8 +370,8 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="col-span-1 md:col-span-2">
               <div className="flex items-center mb-4">
-                <img src="/icon.png" alt="Scribe" className="w-8 h-8 rounded-lg" />
-                <h3 className="text-xl font-bold ml-3 text-white">Scribe</h3>
+                <img src="/icon.png" alt="Cription" className="w-8 h-8 rounded-lg" />
+                <h3 className="text-xl font-bold ml-3 text-white">Cription</h3>
               </div>
               <p className="text-gray-300 mb-6 max-w-md">
                 Transform any voice into text freely. AI understands and infinitely expands your productivity.
@@ -401,7 +401,7 @@ export default function Home() {
           <div className="border-t border-gray-700 mt-12 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <p className="text-gray-300 text-sm">
-                © 2024 Scribe. All rights reserved.
+                © 2024 Cription. All rights reserved.
               </p>
               <div className="flex space-x-6 mt-4 md:mt-0">
                 <a href="/privacy" className="text-gray-300 hover:text-white transition-colors text-sm">Privacy Policy</a>

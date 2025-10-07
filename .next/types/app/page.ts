@@ -1,4 +1,4 @@
-// File: /Users/am/Desktop/Scribe-website/app/page.tsx
+// File: /Users/am/Desktop/Cription-website/app/page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
