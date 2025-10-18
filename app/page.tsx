@@ -403,9 +403,25 @@ export default function Home() {
               <p className="text-gray-300 text-sm">
                 © 2024 Cription. All rights reserved.
               </p>
-              <div className="flex space-x-6 mt-4 md:mt-0">
-                <a href="/privacy" className="text-gray-300 hover:text-white transition-colors text-sm">Privacy Policy</a>
-                <a href="/terms" className="text-gray-300 hover:text-white transition-colors text-sm">Terms of Use</a>
+              <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6 mt-4 md:mt-0">
+                <div className="flex space-x-6">
+                  <a href="/privacy" className="text-gray-300 hover:text-white transition-colors text-sm">Privacy Policy</a>
+                  <a href="/terms" className="text-gray-300 hover:text-white transition-colors text-sm">Terms of Use</a>
+                </div>
+                <div className="flex items-center space-x-4">
+                  <div className="flex items-center space-x-2">
+                    <Shield className="w-4 h-4 text-gray-400" />
+                    <span className="text-gray-400 text-xs">GDPR Compliant</span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <Shield className="w-4 h-4 text-gray-400" />
+                    <span className="text-gray-400 text-xs">SOC 2 Type II</span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <img src="/openai-white.svg" alt="OpenAI" className="w-4 h-4" />
+                    <span className="text-gray-400 text-xs">Powered by OpenAI</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
