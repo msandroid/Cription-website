@@ -23,12 +23,21 @@ export default function Home() {
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
                 <a href="#features" className="text-muted-foreground hover:text-foreground px-3 py-2 rounded-md text-sm font-medium transition-colors">Features</a>
-                <a href="#pricing" className="text-muted-foreground hover:text-foreground px-3 py-2 rounded-md text-sm font-medium transition-colors">Pricing</a>
               </div>
             </div>
-            <div className="flex items-center space-x-4">
-              <Button variant="ghost" size="sm">Login</Button>
-              <Button size="sm">Get Started</Button>
+            <div className="flex items-center">
+              <a 
+                href="https://apps.apple.com/app/Cription" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:scale-105 transition-transform duration-300"
+              >
+                <img 
+                  src="/app-store-badge.svg" 
+                  alt="Download on the App Store" 
+                  className="h-10 w-auto"
+                />
+              </a>
             </div>
           </div>
         </div>
@@ -237,132 +246,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Pricing Section */}
-      <section id="pricing" className="py-20 bg-black">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              Choose Your Plan
-            </h2>
-            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Start free and scale as you grow. All plans include core speech recognition features.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Free Plan */}
-            <Card className="bg-gray-800 border-gray-700">
-              <CardHeader className="text-center">
-                <CardTitle className="text-2xl text-white">Starter</CardTitle>
-                <div className="text-4xl font-bold text-white mb-2">$0<span className="text-lg text-gray-300">/month</span></div>
-                <CardDescription className="text-gray-300">Perfect for individuals and small projects</CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="flex items-center">
-                  <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">5 hours of speech recognition per month</span>
-                </div>
-                <div className="flex items-center">
-                  <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">Basic speech recognition features</span>
-                </div>
-                <div className="flex items-center">
-                  <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">Standard accuracy</span>
-                </div>
-                <div className="flex items-center">
-                  <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">Community support</span>
-                </div>
-              </CardContent>
-              <CardContent>
-                <Button className="w-full bg-white text-black hover:bg-gray-200">Start Free</Button>
-              </CardContent>
-            </Card>
-
-            {/* Pro Plan */}
-            <Card className="bg-gray-800 border-gray-600 relative">
-              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                <Badge className="bg-white text-black">Most Popular</Badge>
-              </div>
-              <CardHeader className="text-center">
-                <CardTitle className="text-2xl text-white">Professional</CardTitle>
-                <div className="text-4xl font-bold text-white mb-2">$29<span className="text-lg text-gray-300">/month</span></div>
-                <CardDescription className="text-gray-300">For creators and professionals</CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="flex items-center">
-                  <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">Unlimited speech recognition</span>
-                </div>
-                <div className="flex items-center">
-                  <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">All speech recognition features</span>
-                </div>
-                <div className="flex items-center">
-                  <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">High-precision recognition</span>
-                </div>
-                <div className="flex items-center">
-                  <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">Priority support</span>
-                </div>
-                <div className="flex items-center">
-                  <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">Speaker separation</span>
-                </div>
-                <div className="flex items-center">
-                  <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">99 language support</span>
-                </div>
-              </CardContent>
-              <CardContent>
-                <Button className="w-full bg-white text-black hover:bg-gray-200">
-                  Go Pro
-                </Button>
-              </CardContent>
-            </Card>
-
-            {/* Enterprise Plan */}
-            <Card className="bg-gray-800 border-gray-700">
-              <CardHeader className="text-center">
-                <CardTitle className="text-2xl text-white">Enterprise</CardTitle>
-                <div className="text-4xl font-bold text-white mb-2">Custom</div>
-                <CardDescription className="text-gray-300">For teams and large organizations</CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="flex items-center">
-                  <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">Everything in Professional</span>
-                </div>
-                <div className="flex items-center">
-                  <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">Dedicated speech recognition servers</span>
-                </div>
-                <div className="flex items-center">
-                  <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">Custom speech models</span>
-                </div>
-                <div className="flex items-center">
-                  <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">24/7 premium support</span>
-                </div>
-                <div className="flex items-center">
-                  <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">SLA guarantee</span>
-                </div>
-                <div className="flex items-center">
-                  <CheckCircle className="w-5 h-5 text-white mr-3" />
-                  <span className="text-sm text-gray-300">Dedicated account manager</span>
-                </div>
-              </CardContent>
-              <CardContent>
-                <Button className="w-full bg-white text-black hover:bg-gray-200">Contact Sales</Button>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
 
       {/* Footer */}
       <footer className="bg-gray-900 py-16">
